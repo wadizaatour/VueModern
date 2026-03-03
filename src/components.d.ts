@@ -42,5 +42,14 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SearchInput: typeof import('./components/ui/SearchInput.vue')['default']
+    Sheet: typeof import('./components/ui/sheet/Sheet.vue')['default']
+    SheetClose: typeof import('./components/ui/sheet/SheetClose.vue')['default']
+    SheetContent: typeof import('./components/ui/sheet/SheetContent.vue')['default']
+    SheetDescription: typeof import('./components/ui/sheet/SheetDescription.vue')['default']
+    SheetFooter: typeof import('./components/ui/sheet/SheetFooter.vue')['default']
+    SheetHeader: typeof import('./components/ui/sheet/SheetHeader.vue')['default']
+    SheetOverlay: typeof import('./components/ui/sheet/SheetOverlay.vue')['default']
+    SheetTitle: typeof import('./components/ui/sheet/SheetTitle.vue')['default']
+    SheetTrigger: typeof import('./components/ui/sheet/SheetTrigger.vue')['default']
   }
 }
