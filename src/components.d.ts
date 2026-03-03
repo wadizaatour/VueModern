@@ -14,7 +14,7 @@ declare module 'vue' {
     AppBadge: typeof import('./components/ui/badge/AppBadge.vue')['default']
     AppFooter: typeof import('./components/layout/AppFooter.vue')['default']
     AppHeader: typeof import('./components/layout/AppHeader.vue')['default']
-    AppLayout: typeof import('./layouts/AppLayout.vue')['default']
+    AppLayout: typeof import('./components/layout/AppLayout.vue')['default']
     AppSideBar: typeof import('./components/layout/AppSideBar.vue')['default']
     BaseButton: typeof import('./components/ui/button/BaseButton.vue')['default']
     BaseInput: typeof import('./components/ui/input/BaseInput.vue')['default']

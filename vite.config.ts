@@ -23,7 +23,7 @@ export default defineConfig({
       dts: 'src/auto-imports.d.ts',
     }),
     Components({
-      dirs: ['src/components', 'src/layouts'],
+      dirs: ['src/components'],
       dts: 'src/components.d.ts',
     }),
   ],
