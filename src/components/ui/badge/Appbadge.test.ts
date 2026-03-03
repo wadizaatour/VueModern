@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
-import Badge from './Badge.vue'
+import Badge from './AppBadge.vue'
 
 describe('Badge Component', () => {
   it('should render the slot content correctly', () => {
