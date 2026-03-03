@@ -17,7 +17,7 @@ import {
 </script>
 <template>
   <header class="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur-sm">
-    <div class="container flex h-14 items-center justify-between">
+    <div class="container flex h-14 items-center justify-between min-w-full">
       <nav class="flex items-center gap-6 text-sm font-medium">
         <Menubar>
           <MenubarMenu>
