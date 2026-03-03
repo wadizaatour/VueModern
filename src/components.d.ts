@@ -17,7 +17,7 @@ declare module 'vue' {
     AppLayout: typeof import('./layouts/AppLayout.vue')['default']
     AppSideBar: typeof import('./components/layout/AppSideBar.vue')['default']
     BaseButton: typeof import('./components/ui/button/BaseButton.vue')['default']
-    BaseInput: typeof impo./components/ui/badge/AppBadge.vuenput.vue')['default']
+    BaseInput: typeof import('./components/ui/input/BaseInput.vue')['default']
     Menubar: typeof import('./components/ui/menubar/Menubar.vue')['default']
     MenubarCheckboxItem: typeof import('./components/ui/menubar/MenubarCheckboxItem.vue')['default']
     MenubarContent: typeof import('./components/ui/menubar/MenubarContent.vue')['default']

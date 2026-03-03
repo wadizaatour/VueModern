@@ -76,12 +76,12 @@ const isMobileMenuOpen = ref(false)
       </div>
 
       <div class="flex items-center gap-2 md:gap-3">
-        <Badge
+        <AppBadge
           variant="outline"
           class="hidden sm:flex items-center gap-1 font-normal text-xs px-2 py-0.5 border-primary/20 bg-primary/5 text-primary"
         >
           v2.4.0
-        </Badge>
+        </AppBadge>
 
         <div class="flex items-center gap-2 md:border-l md:pl-4 ml-1">
           <BaseButton variant="ghost" size="sm" class="hidden md:flex text-muted-foreground">
