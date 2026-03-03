@@ -7,5 +7,3 @@ import './assets/main.css'
     <router-view />
   </AppLayout>
 </template>
-
-<style scoped></style>
