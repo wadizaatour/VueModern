@@ -11,7 +11,7 @@ import { Github, Twitter, Linkedin } from 'lucide-vue-next'
             <div class="size-7 rounded bg-primary flex items-center justify-center">
               <span class="text-primary-foreground font-bold text-sm">V</span>
             </div>
-            <span class="font-bold tracking-tight">Vitest UI</span>
+            <span class="font-bold tracking-tight">VueModern</span>
           </a>
           <p class="text-sm text-muted-foreground max-w-xs leading-relaxed">
             Building the next generation of testing tools for Vue developers. Open source,
@@ -78,7 +78,7 @@ import { Github, Twitter, Linkedin } from 'lucide-vue-next'
 
       <div class="mt-12 pt-8 border-t flex flex-col items-center justify-between gap-6 md:flex-row">
         <p class="text-xs text-muted-foreground">
-          &copy; 2026 Vitest UI Inc. Part of the Acme Corp ecosystem.
+          &copy; 2026 VueModern UI developed by wadi zaatour.
         </p>
         <div class="flex items-center gap-6">
           <div class="flex items-center gap-1">

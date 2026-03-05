@@ -29,7 +29,7 @@ const isMobileMenuOpen = ref(false)
                 >
                   V
                 </div>
-                <span class="font-bold">Vitest UI</span>
+                <span class="font-bold">VueModern</span>
               </a>
               <div class="flex flex-col gap-2">
                 <h4 class="text-sm font-semibold text-muted-foreground px-2">Project</h4>
@@ -48,7 +48,7 @@ const isMobileMenuOpen = ref(false)
           <div class="size-8 rounded-lg bg-primary flex items-center justify-center">
             <span class="text-primary-foreground font-bold text-xl">V</span>
           </div>
-          <span class="hidden font-bold lg:inline-block">Vitest UI</span>
+          <span class="hidden font-bold lg:inline-block">VueModern</span>
         </a>
 
         <nav class="hidden md:flex items-center">
@@ -84,9 +84,7 @@ const isMobileMenuOpen = ref(false)
         </AppBadge>
 
         <div class="flex items-center gap-2 md:border-l md:pl-4 ml-1">
-          <BaseButton variant="ghost" size="sm" class="hidden md:flex text-muted-foreground">
-            Log in
-          </BaseButton>
+          <AppLogin />
           <BaseButton size="sm" class="h-9 px-3 md:px-4">
             <span class="hidden sm:inline">Get Started</span>
             <span class="sm:hidden font-bold">Join</span>
