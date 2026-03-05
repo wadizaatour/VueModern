@@ -4,6 +4,7 @@
 
     <main class="flex-1">
       <div class="container py-6">
+        <ProductList />
         <slot />
       </div>
     </main>
